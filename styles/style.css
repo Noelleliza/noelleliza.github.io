@@ -1,7 +1,19 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: #FDFDFD;
   font-family: 'Montserrat', 'Muli', sans-serif;
   color: #46525A;
+  margin: 0;
+  min-height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 .box-text {
@@ -111,7 +123,8 @@ a {
 .project {
   border: #46525A solid 5px;
   width: 60%;
-  margin: 20px 105px;
+  height: 400px;
+  margin: 80px 200px
 }
 
 .right {
@@ -127,24 +140,90 @@ a {
   border-radius: 8px;
   color: white;
   padding: 15px;
-  font-weight: medium;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
 }
 
 .project img {
-max-height: 450px;
-
+  max-height: 500px;
+  position: absolute;
 }
 
 .project.right img {
-  right: 10%;
+  right: 40%;
 }
 
 .project.left img {
-  left: 10%;
+  left: 25%;
+}
+
+.box-third {
+  width: 30%;
+  margin: 15px 30px;
+}
+
+.right .box-third {
+  float:right;
+  text-align: right;
+}
+
+.section-text {
+  margin-top: 50px;
+  line-height: 23px;
+}
+
+/* Styling*/
+
+.blue-bar {
+  opacity: 0.5;
+  background: #DCDFE4;
+  height: 50px;
+  width: 500px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.right .blue-bar {
+  right: 0;
+}
+
+.left .blue-bar {
+  left: 0;
+}
+
+.pink-bar {
+  opacity: 0.5;
+  background: #F6D6CE;
+  height: 300px;
+  width: 400px;
+  position: absolute;
 }
 
 
 
+/*Footer*/
+
+.foot {
+  background-color: #96A7AB;
+  clear: both;
+  position: relative;
+  height: 3em;
+  margin-top: -3em;
+  padding: 5px 75px;
+  color: white;
+}
+
+.footer {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.footer li a, .footer li{
+  color: white;
+  font-weight: lighter;
+}
 
 
 
