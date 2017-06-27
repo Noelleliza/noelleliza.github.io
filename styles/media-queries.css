@@ -1,4 +1,4 @@
-/*for mobiles smaller than iphone 6 plus*/
+/*fFOR MOBILES smaller than iphone 6 plus*/
 @media (max-width: 415px){
   body{
     display: block;
@@ -117,21 +117,44 @@
 
 }
 
+/*IPAD PRO AND SMALLER*/
+@media (min-width: 416px) and (max-width: 1023px){
+
+  .hero-frame {
+    width: 90%;
+  }
+
+  #hero-box {
+    width: 45%;
+    height: 75%;
+    right: 8%;
+  }
+
+  .project {
+    width: 85%;
+    margin: auto;
+    border: none;
+  }
+
+  .project.right img, .project.left img {
+    max-height: 350px;
+  }
+
+  .left img {
+    left: 25%;
+  }
+
+  .pink-bar {
+    display: none;
+  }
+
+}
 
 
 /*larger than iphone 6 plus*/
 @media (min-width: 416px){
   .hamburger{
   display: none;
-}
-
-.right {
-  float: right;
-}
-
-.left {
-  float: left;
-  padding-top: 10px;
 }
 
 .box-third {
@@ -142,6 +165,22 @@
  .right .box-third {
   float:right;
   text-align: right;
+}
+
+
+}
+
+/*COMPUTER SCREENS */
+
+@media (min-width: 1024px){
+
+  .right {
+  float: right;
+}
+
+.left {
+  float: left;
+  padding-top: 10px;
 }
 
 .project.right img {
@@ -155,10 +194,5 @@
 }
 
 }
-
-
-
-
-
 
 
