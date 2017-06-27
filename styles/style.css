@@ -23,6 +23,9 @@ body {
 h3 {
   font-family: 'Muli', 'Montserrat', sans-serif;
   font-weight: bold;
+  font-size: 15pt;
+  position: relative;
+  z-index: 2000;
 }
 
 /*NAVIGATION*/
@@ -32,7 +35,7 @@ h3 {
   border-collapse: collapse;
   margin: 20px auto 7px;
   position: relative;
-  z-index: 2000;
+  z-index: 3000;
 }
 
  ul: first-child{
@@ -62,6 +65,10 @@ a {
 
 
 /*HERO*/
+.hero {
+  background-image: url(../images/marble.jpg) no-repeat top center;
+}
+
 .hero-frame{
   border: #B6897B solid 5px;
   width: 80%;
@@ -121,56 +128,80 @@ a {
 }
 
 .project {
-  border: #46525A solid 5px;
+  border: /*#46525A*/ #E5DBD1 solid 5px;
   width: 60%;
   height: 400px;
-  margin: 80px 200px
+  margin: 80px 200px;
+  position: inherit;
+  z-index: 2000;
 }
 
-.right {
+/*.right {
   float: right;
 }
 
 .left {
   float: left;
-}
+  padding-top: 10px;
+}*/
 
 .button {
   background: #CB8671;
-  border-radius: 8px;
+  border-radius: 6px;
   color: white;
-  padding: 15px;
+  padding: 15px 25px;
   font-weight: 400;
+  font-size: 13pt;
   text-align: center;
-  margin-top: 80px;
+  position: relative;
+  z-index: 2000;
 }
 
 .project img {
-  max-height: 500px;
   position: absolute;
+  z-index: 2000;
 }
 
-.project.right img {
-  right: 40%;
+/*.project.right img {
+  right: 35%;
+  max-height: 550px;
 }
 
 .project.left img {
   left: 25%;
+   max-height: 450px;
+}*/
+
+#deco {
+
 }
 
-.box-third {
+#staged {
+
+}
+
+#foxbox {
+
+}
+
+/*.box-third {
   width: 30%;
   margin: 15px 30px;
-}
+}*/
 
-.right .box-third {
+/*.right .box-third {
   float:right;
   text-align: right;
-}
+}*/
 
 .section-text {
   margin-top: 50px;
+  margin-bottom: 50px;
   line-height: 23px;
+  font-size: 14pt;
+  font-weight: lighter;
+  position: relative;
+  z-index: 2000;
 }
 
 /* Styling*/
@@ -179,17 +210,20 @@ a {
   opacity: 0.5;
   background: #DCDFE4;
   height: 50px;
-  width: 500px;
+  width: 450px;
   position: absolute;
-  z-index: 1000;
+  margin: 7px 0;
+  /*z-index: 1000;*/
 }
 
 .right .blue-bar {
   right: 0;
+  width: 360px;
 }
 
 .left .blue-bar {
   left: 0;
+  margin-top: -10px;
 }
 
 .pink-bar {
@@ -198,6 +232,7 @@ a {
   height: 300px;
   width: 400px;
   position: absolute;
+  /*z-index: 1000;*/
 }
 
 
@@ -208,10 +243,10 @@ a {
   background-color: #96A7AB;
   clear: both;
   position: relative;
-  height: 3em;
   margin-top: -3em;
   padding: 5px 75px;
   color: white;
+  z-index: 2000;
 }
 
 .footer {

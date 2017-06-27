@@ -12,18 +12,24 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Muli:400,700" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/font-awesome.css">
-  <link rel="stylesheet" href="styles/media-queries.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media-queries.css">
 
 </head>
 
 <body>
+ <!-- Resposive Navigation -->
+<div class="hamburger" id="menu">
+<a href="#" class="burger"> &#9776;</a>
+<img src="images/logo-blue.png" class="burger">
+<p class="burger">Noëlle Lewkowicz</p>
+</div>
 <!-- Nav Bar -->
 <div class="nav">
   <ul class="navbar">
     <li><a href="index.html"><img src="images/logo-blue.png"></a></li>
     <li><a href="index.html"> Noëlle Lewkowicz | UX / UI Designer</a></li>
-    <li><a href="#">Projects</a></li>
+    <li><a href="#Projects">Projects</a></li>
       <!-- dropdown-->
  <!--      <ul>
         <li><a href="">Project 1</a></li>
@@ -35,6 +41,7 @@
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </div>
+
 <!--Hero-->
 <section class="hero">
   <div class="hero-frame">
@@ -51,38 +58,38 @@
 </section>
 
 <!-- Projects-->
-<section class="Projects">
+<section id="Projects">
 
   <div class="project right">
-    <img src="images/decostop-mockup.png">
+    <img src="images/decostop-mockup.png" id="deco">
     <div class="box-third">
+     <div class="blue-bar"></div>
       <h3>Déco Stop</h3>
-      <div class="blue-bar"></div>
       <p class="section-text">UX/ UI<br>Branding<br>E-commerce</p>
+      <a href="#" class="button">View Case Study</a>
       <div class="pink-bar"></div>
-      <p class="button">View Case Study</p>
     </div>
 
   </div>
     <div class="project left">
-    <img src="images/staged.png">
+    <img src="images/staged.png" id="staged">
     <div class="box-third">
       <div class="blue-bar"></div>
       <h3>Staged | Movie Site</h3>
       <p class="section-text">UX/ UI<br>Responsive<br>Web Design</p>
-      <p class="button">Visit Site</p>
+      <a href="https://noelleliza.github.io/Staged-movie-site/" class="button">Visit Site</a>
       <div class="pink-bar"></div>
     </div>
   </div>
 
     <div class="project right">
-    <img src="images/foxbox-mockup.png">
+    <img src="images/foxbox-mockup.png" id="foxbox">
     <div class="box-third">
+     <div class="blue-bar"></div>
       <h3>FoxBox</h3>
-      <div class="blue-bar"></div>
       <p class="section-text">UX / UI<br>Branding<br>Web Application</p>
       <div class="pink-bar"></div>
-      <p class="button">View Case Study</p>
+      <a href="#" class="button">View Case Study</a>
     </div>
   </div>
 </section>
