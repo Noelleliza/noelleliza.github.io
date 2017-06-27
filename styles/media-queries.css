@@ -1,4 +1,4 @@
-/*fFOR MOBILES smaller than iphone 6 plus*/
+/*FOR MOBILES smaller than iphone 6 plus*/
 @media (max-width: 415px){
   body{
     display: block;
@@ -43,11 +43,12 @@
    margin: auto;
    width: 100%;
    text-align: center;
-   padding: 20px 0;
+   padding: 20px 0 50px;
  }
 
   .right {
-  background: #FAF2F0;
+    background: #FAF2F0;
+    padding-bottom: 85px;
  }
 
  .left {
@@ -100,10 +101,15 @@
   display: none;
  }
 
+ .filler {
+  background: #FAF2F0;
+  height: 40px; 
+ }
+
  .foot {
   margin: 0;
-  display: inline-block;
-  padding: 7px;
+  padding: 10px 7px;
+  text-align: center;
  }
 
  .footer {
@@ -124,7 +130,7 @@
     z-index: 3000;
     top: 0;
     left: 0;
-    background-color: #96A7AB;
+    background-color: #46525A;
     overflow: hidden;
     transition: all 0.4s ease-in-out;
     padding-top: 0px;
@@ -140,6 +146,7 @@
     list-style:none; 
     margin-left:auto;
     margin-right:auto;
+    padding-left: 0;
 }
 
 .navigation li {
@@ -147,6 +154,9 @@
   text-align: center;
 }
 
+.navigation p {
+  color: white;
+}
 
 .menulist {
     width:200px;
@@ -194,7 +204,7 @@
     text-decoration: none;
     list-style:none; 
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     display: inline-block;
     position:relative;  
     text-align:center;
