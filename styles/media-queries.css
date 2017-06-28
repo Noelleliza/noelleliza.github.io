@@ -1,5 +1,5 @@
-/*FOR MOBILES smaller than iphone 6 plus*/
-@media (max-width: 415px){
+/*FOR MOBILES */
+@media (max-width: 425px){
   body{
     display: block;
   }
@@ -255,7 +255,7 @@
 }
 
 /*IPAD PRO AND SMALLER*/
-@media (min-width: 416px) and (max-width: 1023px){
+@media (min-width: 426px) and (max-width: 1023px){
 
   .hero-frame {
     width: 90%;
@@ -289,7 +289,7 @@
 
 
 /*larger than iphone 6 plus*/
-@media (min-width: 416px){
+@media (min-width: 426px){
   .hamburger{
   display: none;
 }
@@ -335,4 +335,32 @@
 
 }
 
+/*SMALL SCREENS*/
+@media (min-width: 426px) and (max-width: 775px) {
+
+  .navbar {
+    width: 90%;
+  }
+
+  li a {
+    margin-left: 10px;
+  }
+
+  .box-third {
+    width: 50%;
+  }
+
+  .project img {
+    max-width: 500px;
+  }
+
+  .right img {
+    left: 0;
+  }
+
+  .left img {
+    right: 0;
+  }
+
+}
 
