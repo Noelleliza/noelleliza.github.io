@@ -66,7 +66,7 @@ a {
 
 /*HERO*/
 .hero {
-  background-image: url(../images/marble.jpg) no-repeat top center;
+  background: url(../images/marble.jpg) no-repeat top center;
 }
 
 .hero-frame{
