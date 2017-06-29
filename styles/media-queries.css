@@ -1,5 +1,5 @@
-/*FOR MOBILES */
-@media (max-width: 425px){
+/*FOR MOBILES AND VERY SMALL SCREENS*/
+@media (max-width: /*425*/ 600px){
   body{
     display: block;
   }
@@ -21,9 +21,10 @@
  }
 
   .hero {
-    background: /*#F0B1A0*/ url(../images/marble.jpg) no-repeat top center;
+    background: url(../images/marble.jpg) no-repeat top center;
     top: 50px;
     position: relative;
+    height: 80vh; /* make hero % height of screen*/
   }
 
   .hero-frame {
@@ -44,6 +45,9 @@
    width: 100%;
    text-align: center;
    padding: 20px 0 50px;
+    position: relative;
+    min-height: 100%;
+    height: auto;
  }
 
   .right {
@@ -51,9 +55,6 @@
     padding-bottom: 85px;
  }
 
- .left {
-  /*background: #ECEEF0;*/
- }
 
  .project img {
   position: relative;
@@ -101,10 +102,10 @@
   display: none;
  }
 
- .filler {
+ /*.filler {
   background: #FAF2F0;
   height: 40px; 
- }
+ }*/
 
  .foot {
   margin: 0;
@@ -249,13 +250,69 @@
     font-size:30px;
 }
 /*test nav end*/
+}
 
+/*HERO FOR SMALL SCREENS*/
+/*@media (max-width: 600px){
 
+    #hero-box {
+    display: none;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-left p {
+    width: 80%;
+  }
+
+  .hero-right img {
+  display: none;
+ }
+
+  .hero {
+    background: url(../images/marble.jpg) no-repeat top center;
+    top: 50px;
+    position: relative;
+  }
+
+  .hero-frame {
+    border: none; 
+  }
+
+}*/
+
+/*FIX WEIRD HERO FORMATTING BETWEEN MOBILE AND LARGE SCREEN VIEW*/
+@media (min-width: 601px) and (max-width: 1020px){
+
+  .hero-right {
+    width: 55%;
+  }
+
+  .hero-left {
+    width: 45%;
+  }
+
+  .hero-left p {
+    padding: 10% 2%;
+    width: 100%
+  }
+
+  .hero-left img {
+    padding-top: 10%;
+  }
+
+  #hero-box {
+    width: 40%;
+  }
 
 }
 
+
+
 /*IPAD PRO AND SMALLER*/
-@media (min-width: 426px) and (max-width: 1023px){
+@media (min-width: /*426*/ 601px) and (max-width: 1023px){
 
   .hero-frame {
     width: 90%;
@@ -289,18 +346,18 @@
 
 
 /*larger than iphone 6 plus*/
-@media (min-width: 426px){
+@media (min-width: /*426*/ 601px){
   .hamburger{
   display: none;
 }
 
 .box-third {
-  width: 30%;
+  width: 31%;
   margin: 15px 30px;
 }
 
  .right .box-third {
-  float:right;
+  float: right;
   text-align: right;
 }
 
@@ -336,7 +393,7 @@
 }
 
 /*SMALL SCREENS*/
-@media (min-width: 426px) and (max-width: 775px) {
+@media (min-width: /*426*/ 601px) and (max-width: 775px) {
 
   .navbar {
     width: 90%;
