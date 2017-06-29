@@ -1,0 +1,74 @@
+.header {
+  text-align: center;
+  background: url(../images/marble.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.header-container {
+  padding: 45px 0;
+  width: 90%;
+  margin: auto;
+}
+
+.header p {
+  margin-top: 25px;
+}
+
+.bio {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.about-left {
+  width: 60%;
+  float: left;
+}
+
+.about-right {
+  width: 40%;
+  float: right;
+}
+
+p.bio-text {
+  margin: 40px 50px 0 0;
+  line-height: 1.5;
+}
+
+.bio .blue-bar {
+  left: 0;
+  width: 350px;
+}
+
+.bio img {
+  position: relative;
+  z-index: 2000;
+  max-width: 100%;
+}
+
+.pink {
+    opacity: 0.5;
+    background: #F6D6CE;
+    height: 300px;
+    width: 400px;
+    position: relative;
+  }
+
+  .pink.box {
+    right: -35px;
+    height: 380px;
+    width: 100%;
+    bottom: 335px;
+  }
+
+  .for-box {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  
+
+
+
+
+
+

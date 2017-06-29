@@ -12,6 +12,10 @@ body {
   box-sizing: inherit;
 }
 
+.navbar img {
+  max-height: 30px;
+}
+
 .box-text {
   font-size: 14pt;
 }
