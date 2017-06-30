@@ -16,7 +16,7 @@
 
 .bio {
   width: 80%;
-  margin: 80px auto;
+  margin: 50px auto;
 }
 
 .about-left {
@@ -65,7 +65,27 @@ p.bio-text {
     overflow: hidden;
   }
 
-  
+/*LARGE SCALE ONLY*/
+  @media (min-width: 756px){
+
+  }
+
+/*SMALLER SCALE REARRANGING*/
+  @media (max-width: 755px){
+
+    .about-left {
+      width: 100%;
+    }
+
+    .about-right {
+      display: none;
+    }
+
+    p.bio-text {
+      margin: 0 auto 50px;
+    }
+
+  }
 
 
 
