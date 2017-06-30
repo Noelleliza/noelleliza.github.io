@@ -1,0 +1,76 @@
+.contact {
+ margin: 10px 20%;
+ width: 80%;
+}
+
+.header {
+  text-align: center;
+  background: url(../images/marble.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.header-container {
+  padding: 65px 0;
+  width: 100%;
+  margin: auto;
+}
+
+.header p {
+  margin-top: 25px;
+}
+
+.social {
+  float: left;
+  padding: 0 20px;
+  margin: 0 auto 50px;
+}
+
+.social i {
+  font-size: xx-large;
+  margin: 10px;
+}
+
+.social a {
+  display: block;
+}
+
+.input {
+  float: left;
+  padding: 0 20px;
+  width: 35%;
+  display: table-cell;
+  margin: 0 auto 50px;
+}
+
+input, textarea {
+    font-size: 0.8em;
+    font-family: 'proxima-nova-soft', sans-serif;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0.9em;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    margin-bottom: 0.5em;
+    border-radius: 4px;
+}
+
+
+#formview textarea {
+    height: 10.3em;
+}
+
+button, a.button {
+    line-height: 1em;
+    transition: all 0.3s ease-in-out;
+    border: transparent;
+}
+
+button:hover, a.button:hover {
+    color: #CB8671;
+    cursor: pointer;
+    background: #F6E1DA;
+}
+
+
+
+

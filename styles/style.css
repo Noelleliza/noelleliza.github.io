@@ -132,7 +132,7 @@ a {
 }
 
 .project {
-  border: /*#46525A*/ #616B72 solid 5px;
+  border: rgba(97, 107, 114, 0.16) solid 5px;
   width: 60%;
   height: 400px;
   margin: 80px 200px;
@@ -247,7 +247,7 @@ a {
   background-color: #96A7AB;
   clear: both;
   position: relative;
-  margin-top: -3em;
+  /*margin-top: -3em;*/
   padding: 5px 75px;
   color: white;
   z-index: 2000;

@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="styles/font-awesome.css">
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/contact.css">
   <link rel="stylesheet" href="styles/media-queries.css">
 
 </head>
@@ -40,7 +40,7 @@
   <li><a href="index.html"><img src="images/logo-white.png"/></a></li>
   <li><a class="menuitems" href="#">Projects</a></li>   
   <li><a class="menuitems" href="about.html">About</a></li>        
-  <li><a class="menuitems" href="#">Contact</a></li>
+  <li><a class="menuitems" href="contact.html">Contact</a></li>
 </ul>     
 </div>
 
@@ -65,37 +65,41 @@
   </ul>
 </div>
 
-<!-- ABOUT PAGE BODY -->
 
 <!-- Header -->
 <section class="header">
   <div class="header-container">
-    <img src="images\about-me.png">
-    <p>“If you can design one thing, you can design everything.” 
-    <br>- Massimo Vignelli</p>
+    <img src="images\contact-me.png">
+    <!-- <p>“If you can design one thing, you can design everything.” 
+    <br>- Massimo Vignelli</p> -->
   </div>
 </section>
 
-<!-- MAIN -->
-<div class="for-box">
-<section class="bio">
-  <div class="about-left">
-    <div class="blue-bar"></div>
-    <h3>My Background</h3>
-    <p class="bio-text">Art and Design have always been a lifelong love of mine though my career didn’t start until 2011 when I graduated with a BFA from ‘Parsons School of Art and Design’ and began as a fashion and graphic designer in New York City.<br><br>
+<!--! MAIN -->
 
-    It didn’t take long for me to discover a growing passion for communication design, and so, started self-teaching print and digital design as well as taking a continuing education course at New York’s ‘School of Visual Arts’ while still working full-time in Fashion Design.<br><br>
-
-    In 2016 I realized my true passion for digital design and decided to study UX/UI Design and Frontend Development full time in order to embark on this new career path.
-    </p>
+<section>
+<div class="contact">
+  <div class="social">
+  <h3>Find me elsewhere online:</h3>
+    <a href="https://www.linkedin.com/in/noelle-lewkowicz/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a>
+    <a href="https://github.com/Noelleliza"><i class="fa fa-github" aria-hidden="true"></i> Git Hub</a>
+    <a href="https://www.behance.net/noellelewke403"><i class="fa fa-behance-square" aria-hidden="true"></i> Behance</a>
+    <a href="https://dribbble.com/Noelleliza"><i class="fa fa-dribbble" aria-hidden="true"></i> Dribble</a>
+    
   </div>
-
-  <div class="about-right">
-    <img src="images/noelle-paris.png">
-    <div class="pink box"></div>
+  <div class="input">
+  <h3>Leave a  message:</h3>
+   <form method="POST" action="http://formspree.io/noelle.lewkowicz@gmail.com">
+      <input type="email" name="email" placeholder="Your email">
+      <textarea name="message" placeholder="Your message"></textarea>
+      <button type="submit" class="button">Send</button>
+    </form>
   </div>
-</section>
+<!-- <h3>Email me at <a href="mailto:noelle.lewkowicz@gmail.com?" target="_top">noelle.lewkowicz@gmail.com</a></h3>
+ -->
 </div>
+</section>
+
 
 <!-- Footer -->
 <section>
@@ -110,8 +114,6 @@
   </div>
   </section>
 
-
-<script src="javascript/tools.js"></script>
+  <script src="javascript/tools.js"></script>
 </body>
 </html>
-
