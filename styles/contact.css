@@ -1,6 +1,8 @@
 .contact {
- margin: 10px 20%;
+ margin: 5% auto;
  width: 80%;
+ height: 65vh;
+ display: flex;
 }
 
 .header {
@@ -19,10 +21,13 @@
   margin-top: 25px;
 }
 
+.header img {
+  max-width: 65%;
+}
+
 .social {
-  float: left;
   padding: 0 20px;
-  margin: 0 auto 50px;
+  margin: 0 5% 50px;
 }
 
 .social i {
@@ -35,11 +40,11 @@
 }
 
 .input {
-  float: left;
+  float: right;
   padding: 0 20px;
   width: 35%;
   display: table-cell;
-  margin: 0 auto 50px;
+  margin: 0 5% 50px;
 }
 
 input, textarea {
@@ -54,6 +59,9 @@ input, textarea {
     border-radius: 4px;
 }
 
+textarea {
+  height: 100px;
+}
 
 #formview textarea {
     height: 10.3em;
@@ -71,6 +79,22 @@ button:hover, a.button:hover {
     background: #F6E1DA;
 }
 
+@media (min-width: 601px){
+  .social {
+    float: left;
+  }
+}
 
+/*FOR MOBILE*/
+@media (max-width: 600px){
+  .contact {
+    display: block;
+    text-align: center;
+  }
+
+  .input {
+    width: 80%;
+  }
+}
 
 
