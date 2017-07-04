@@ -45,3 +45,21 @@ function navToggle() {
   }
 
 };
+
+// NAVBAR SCROLL FUNCTION
+
+$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('.nav');
+   var offset = startchange.offset();
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.nav').css('background-color', 'rgba(255,255,255,0.9)');
+          $('.nav').css('box-shadow', '0 2px 4px 0 rgba(0,0,0,0.10)');
+       } else {
+          $('.nav').css('background-color', 'transparent');
+          $('.nav').css('box-shadow', '0 2px 4px 0 rgba(0,0,0,0)')
+       }
+   });
+});

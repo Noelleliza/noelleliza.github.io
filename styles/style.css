@@ -1,5 +1,5 @@
 body {
-  background-color: #FDFDFD;
+  background-color: #fcfffe;
   font-family: 'Montserrat', 'Muli', sans-serif;
   color: #46525A;
   margin: 0;
@@ -14,6 +14,7 @@ body {
 
 .navbar img {
   max-height: 30px;
+  vertical-align: middle;
 }
 
 .box-text {
@@ -64,11 +65,28 @@ a {
   color: #46525A;
 }
 
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 4000;
+  transition-duration: 1s;
+}
+
+/*.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}*/
+
+/*.nav-colored { background: white; }
+.nav-transparent { background:transparent;}*/
+
 
 /*HERO*/
 .hero {
   background: url(../images/marble.jpg) no-repeat top center;
   background-size: cover;
+  top: 58px;
+  position: relative;
 }
 
 .hero-frame{
@@ -119,7 +137,7 @@ a {
   width: 45%;
   height: 715px;
   position: absolute;
-  top: 0;
+  top: -115px;
   right: 13%;
   z-index: 1000;
 
@@ -244,7 +262,7 @@ a {
 /*Footer*/
 
 .foot {
-  background-color: #96A7AB;
+  background-color: #46525A;
   clear: both;
   position: relative;
   /*margin-top: -3em;*/

@@ -9,12 +9,15 @@
   text-align: center;
   background: url(../images/marble.jpg) no-repeat top center;
   background-size: cover;
+  position: relative;
 }
 
 .header-container {
   padding: 65px 0;
+  padding-top: 100px;
   width: 100%;
   margin: auto;
+  margin-bottom: 80px;
 }
 
 .header p {
