@@ -35,10 +35,12 @@
 
 .social i {
   font-size: xx-large;
-  margin: 10px;
+  margin: 10px 5px;
+  vertical-align: middle; 
+  display: inline-block;
 }
 
-.social a {
+.social li {
   display: block;
 }
 
