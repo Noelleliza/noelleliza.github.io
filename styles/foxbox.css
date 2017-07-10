@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -9,18 +9,18 @@ section {
 }
 
 section p {
+  line-height: 1.5;
+  margin: 50px auto 20px;
   max-width: 80%;
   text-align: justify;
-  margin: 50px auto 20px;
-  line-height: 1.5;
 }
 
 h4 {
   font-family: 'Muli','Montserrat' ,sans-serif;
-  font-weight: bold;
   font-size: 13pt;
-  z-index: 2000;
+  font-weight: bold;
   position: relative;
+  z-index: 2000;
 }
 
 .section-title {
@@ -31,19 +31,19 @@ h4 {
 .fb-bttn {
   border: solid #F15D25 2px;
   border-radius: 8px;
-  padding: 9px 14px;
   color: #F6A575;
   margin: 0 20px;
+  padding: 9px 14px;
 }
 
 .fb-bttn:hover {
-  color: #F15D25; 
+  color: #F15D25;
 }
 
 .blue-bar {
   background: #76A6B1;
-  width: 240px;
   margin-top: 10px;
+  width: 240px;
 }
 
 .add-length {
@@ -51,23 +51,23 @@ h4 {
 }
 
 .center {
-  max-width: 80%;
   display: block;
   margin: 2.5% auto;
+  max-width: 80%;
 }
 
 
 /*HERO*/
-#cs-logo{
+#cs-logo {
   max-width: 60%;
 }
 
 .fb-hero {
   background: url(../images/fb-hero.png) no-repeat top center;
   background-size: cover;
+  display: inline-block;
   margin: auto;
   max-width: 100%;
-  display: inline-block;
   padding: 6.5% 5% 0 0;
   position: relative;
 }
@@ -77,42 +77,43 @@ h4 {
 }
 
 .fb-hero p {
-  margin: 11%;
   line-height: 1.75;
+  margin: 11%;
   text-align: center;
 }
 
 .fb-third {
-  max-width: 40%;
-  padding: 5%;
   display: inline;
   float: left;
+  max-width: 40%;
+  padding: 5%;
   text-align: center;
 }
 
 .fb-two-thirds {
-  max-width: 60%;
-  float: right;
   display: inline;
+  float: right;
+  max-width: 60%;
   text-align: center;
 }
 
 /*OVERViEW*/
 
 .overview .fb-third p {
-  text-align: center;
-  max-width: 100%;
   margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
 }
 
 .tools {
-  padding: 0 10%;
-  margin: auto;
   display: inline-block;
+  margin: auto;
+  padding: 0 10%;
   width: 100%;
 }
 
-.tools .fb-two-thirds, .tools .fb-third {
+.tools .fb-two-thirds,
+.tools .fb-third {
   padding: 1% 10%;
 }
 
@@ -135,9 +136,9 @@ h4 {
 }
 
 .persona {
-  max-width: 50%;
   float: left;
   margin: 25px 0;
+  max-width: 50%;
 }
 
 /*PROBLEMS*/
@@ -156,22 +157,22 @@ h4 {
 }
 
 .flex-contain {
-  width: 80%;
   margin: 25px auto 0;
+  width: 80%;
 }
 
 .image-gallery {
   display: inline-flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: flex-start;
+  flex-wrap: wrap;
   height: 860px;
+  justify-content: flex-start;
 }
 
 .image-gallery img {
-  width: 33%;
-  margin: 8px; 
   align-self: flex-start;
+  margin: 8px;
+  width: 33%;
 }
 
 /*Branding*/
@@ -180,47 +181,56 @@ h4 {
 }
 
 .branding img {
-  width: 100%;
   padding: 20px 7%;
+  width: 100%;
 }
 
 /*FINAL DESIGN WIREFRAMES*/
 .final-design .image-gallery {
-  justify-content: flex-start;
   height: 2100px;
+  justify-content: flex-start;
 }
 
 .final-design .image-gallery img {
+  margin: 8px;
   width: 50%;
-  margin: 8px; 
 }
 
-.long {
-}
+
 
 .gallery-bttns {
-  text-align: center;
   margin: 30px;
+  text-align: center;
 }
 
 /*\VIDEO*/
 .demo-vid {
+  position: relative;
   text-align: center;
+}
+
+.video-background {
+  height: auto;
+  max-width: 100%;
+}
+
+.demo-vid video {
+  left: 15.3%;
+  max-width: 1001px;
+  position: absolute;
+  top: 19.7%;
+  width: 70.7%;
+}
+
+@media screen and (min-width: 500px) {
+  .demo-vid video {
+    top: 17.4%;
+  }
 }
 
 /*Final Thoughts*/
 
-.final-thoughts{
+.final-thoughts {
   background: #DEF0F3;
   padding: 20px 0 40px;
 }
-
-
-
-
-
-
-
-
-
-
