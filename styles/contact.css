@@ -56,6 +56,10 @@
   margin: 0 5% 50px;
 }
 
+input:focus, textarea:focus{
+    outline:none;
+}
+
 input, textarea {
     font-size: 0.8em;
     font-family: 'proxima-nova-soft', sans-serif;
@@ -86,6 +90,10 @@ button:hover, a.button:hover {
     color: #CB8671;
     cursor: pointer;
     background: #F6E1DA;
+}
+
+button:focus{
+  outline:none;
 }
 
 @media (min-width: 601px){

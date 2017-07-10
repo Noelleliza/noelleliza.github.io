@@ -143,7 +143,6 @@ a {
   z-index: 2000;
 }
 
-
 .button {
   background: #CB8671;
   border-radius: 6px;
@@ -154,6 +153,12 @@ a {
   text-align: center;
   position: relative;
   z-index: 2000;
+}
+
+.button:hover{
+    color: #CB8671;
+    cursor: pointer;
+    background: #F6E1DA;
 }
 
 .project img {
