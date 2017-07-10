@@ -1,0 +1,82 @@
+.dc-bttn {
+  border: solid #424A4F 2px;
+  border-radius: 8px;
+  padding: 9px 14px;
+  color: #424A4F;
+  margin: 0 20px;
+}
+
+.dc-bttn:hover {
+  color: #5380AE; 
+}
+
+.blue-bar {
+  background: #424A4F;
+  width: 240px;
+  margin-top: 10px;
+  opacity: 1;
+}
+
+.add-length {
+  width: 330px;
+}
+
+.section-title {
+  color: white;
+}
+
+h4.centered-title  {
+  text-align: center;
+}
+
+/*HERO*/
+.fb-hero {
+  background: url(../images/deco-hero.png) no-repeat top center;
+}
+
+/*RESEARCH*/
+.research {
+  background:  url(../images/deco-research-bg.png) repeat;
+}
+
+/*PROCESS*/
+.wf-container{
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.process-wf {
+  width: 33%;
+  }
+
+.process-wf, .process-wf img  {
+  text-align: center;
+  display: inline-block;
+}
+
+.process-wf img {
+  max-width: 80%;
+}
+
+.process-wf p {
+  margin: auto;
+}
+
+/*FINAL DESIGN*/
+.final-design {
+  background: #D1DAE3;
+}
+
+/*Testing*/
+.testing img {
+  max-height: 560px;
+  display: inline-block;
+  margin: 15px;
+}
+
+
+/*Conclusion*/
+.final-thoughts{
+  background: #D1DAE3;
+}
