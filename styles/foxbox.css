@@ -13,6 +13,7 @@ section p {
   margin: 50px auto 20px;
   max-width: 80%;
   text-align: justify;
+  clear: both;
 }
 
 h4 {
@@ -67,7 +68,7 @@ h4 {
   background-size: cover;
   display: inline-block;
   margin: auto;
-  max-width: 100%;
+  width: 100%;
   padding: 6.5% 5% 0 0;
   position: relative;
 }
@@ -85,7 +86,7 @@ h4 {
 .fb-third {
   display: inline;
   float: left;
-  max-width: 40%;
+  width: 40%;
   padding: 5%;
   text-align: center;
 }
@@ -93,7 +94,7 @@ h4 {
 .fb-two-thirds {
   display: inline;
   float: right;
-  max-width: 60%;
+  width: 60%;
   text-align: center;
 }
 
@@ -138,7 +139,7 @@ h4 {
 .persona {
   float: left;
   margin: 25px 0;
-  max-width: 50%;
+  width: 50%;
 }
 
 /*PROBLEMS*/
@@ -227,6 +228,20 @@ h4 {
     top: 17.4%;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .demo-vid video {
+    top:17.2%;
+    left: 15.58%;
+    max-width: 1015px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .demo-vid video {
+    left: 30.5%;
+    }
+  }
 
 /*Final Thoughts*/
 

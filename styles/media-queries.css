@@ -1,5 +1,5 @@
 /*FOR MOBILES AND VERY SMALL SCREENS*/
-@media (max-width: /*425*/ 600px){
+@media (max-width: 600px){
   body{
     display: block;
   }
@@ -101,11 +101,6 @@
  .navbar {
   display: none;
  }
-
- /*.filler {
-  background: #FAF2F0;
-  height: 40px; 
- }*/
 
  .foot {
   margin: 0;
@@ -256,38 +251,54 @@
   margin-top: 50px;
 }
 
+/*Mobile/ small screens case study pages*/
+h4.centered-title{
+  width: 80%;
+  margin: auto;
 }
 
-/*HERO FOR SMALL SCREENS*/
-/*@media (max-width: 600px){
+.tools {
+  display: block;
+}
 
-    #hero-box {
-    display: none;
-  }
+.tools img {
+  width: 100%;
+}
 
-  .hero-left {
+.fb-two-thirds {
+  width: 100%;
+}
+
+.fb-third {
+ padding-top: 50px;
+  width: 100%;
+}
+
+section p {
+  margin-top: 25px;
+}
+
+.wf-container{
+  display: block;
+}
+
+.process-wf, .process-wf img{
+  display: block;
+  margin: auto;
+    }
+
+.process-wf {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.persona {
+    float: none;
+    margin: 0;
     width: 100%;
-  }
+}
 
-  .hero-left p {
-    width: 80%;
-  }
-
-  .hero-right img {
-  display: none;
- }
-
-  .hero {
-    background: url(../images/marble.jpg) no-repeat top center;
-    top: 50px;
-    position: relative;
-  }
-
-  .hero-frame {
-    border: none; 
-  }
-
-}*/
+}
 
 /*FIX WEIRD HERO FORMATTING BETWEEN MOBILE AND LARGE SCREEN VIEW*/
 @media (min-width: 601px) and (max-width: 1020px){
@@ -316,9 +327,8 @@
 }
 
 
-
 /*IPAD PRO AND SMALLER*/
-@media (min-width: /*426*/ 601px) and (max-width: 1023px){
+@media (min-width: 601px) and (max-width: 1023px){
 
   .hero-frame {
     width: 90%;
@@ -352,7 +362,7 @@
 
 
 /*larger than iphone 6 plus*/
-@media (min-width: /*426*/ 601px){
+@media (min-width: 601px){
   .hamburger{
   display: none;
 }
@@ -423,6 +433,24 @@
 
   .left img {
     right: 0;
+  }
+
+  /*case-study pages*/
+  .fb-third {
+    width: 50%;
+  }
+
+  .fb-two-thirds{
+    width: 50%;
+  }
+
+  .fb-two-thirds img {
+    margin-top: 10%;
+    max-width: 110%;
+  }
+
+  .process-wf, .process-wf img{
+    margin-bottom: 15px;
   }
 
 }
