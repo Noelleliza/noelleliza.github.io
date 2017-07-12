@@ -455,3 +455,11 @@ section p {
 
 }
 
+@media (min-width: 1024px) and (max-width: 1211px){
+.project.right img {
+    right: 36%;
+    max-height: 460px;
+}
+}
+
+

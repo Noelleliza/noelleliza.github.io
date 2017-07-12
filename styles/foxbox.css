@@ -41,6 +41,13 @@ h4 {
   color: #F15D25;
 }
 
+@media (max-width: 600px){
+  .gallery-bttns .fb-bttn{
+    display: block;
+    margin: 20px 65px;
+  }
+}
+
 .blue-bar {
   background: #76A6B1;
   margin-top: 10px;
@@ -153,29 +160,16 @@ h4 {
   background: #DEF0F3;
 }
 
-.vertical-img {
-  width: 25%;
+.bw .image-gallery{
+  column-count: 3;
+  height: 100%;
 }
 
-.flex-contain {
-  margin: 25px auto 0;
-  width: 80%;
+.bw .image-gallery img{
+  width: 100%;  
 }
 
-.image-gallery {
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 860px;
-  justify-content: flex-start;
-}
-
-.image-gallery img {
-  align-self: flex-start;
-  margin: 8px;
-  width: 33%;
-}
-
+*/
 /*Branding*/
 .branding {
   width: 100%;
@@ -187,16 +181,6 @@ h4 {
 }
 
 /*FINAL DESIGN WIREFRAMES*/
-.final-design .image-gallery {
-  height: 2100px;
-  justify-content: flex-start;
-}
-
-.final-design .image-gallery img {
-  margin: 8px;
-  width: 50%;
-}
-
 
 
 .gallery-bttns {

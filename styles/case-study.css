@@ -120,7 +120,7 @@ h4 {
 }
 
 .persona {
-  max-width: 50%;
+  width: 50%;
   float: left;
   margin: 25px 0;
 }
@@ -133,8 +133,8 @@ h4 {
 /*WIREFRAMES / GALLERY*/
 
 .wireframes.bw {
-  background: #DEF0F3;
-}
+/*  background: #DEF0F3;
+*/}
 
 .vertical-img {
   width: 25%;
@@ -146,17 +146,17 @@ h4 {
 }
 
 .image-gallery {
-  display: inline-flex;
+/*  display: inline-flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start;*/
   height: 860px;
 }
 
 .image-gallery img {
   width: 33%;
   margin: 8px; 
-  align-self: flex-start;
+/*  align-self: flex-start;*/
 }
 
 /*Branding*/
@@ -171,21 +171,26 @@ h4 {
 
 /*FINAL DESIGN WIREFRAMES*/
 .final-design .image-gallery {
-  justify-content: flex-start;
-  height: 2100px;
+  height: 100%;
+  column-count: 2;
 }
 
 .final-design .image-gallery img {
-  width: 50%;
+  width: 80%;
   margin: 8px; 
 }
 
-.long {
-}
 
 .gallery-bttns {
   text-align: center;
   margin: 30px;
+}
+
+@media (max-width: 600px){
+
+.final-design .image-gallery img {
+    width: 100%;
+    }
 }
 
 /*\VIDEO*/
