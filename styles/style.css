@@ -245,5 +245,11 @@ a {
   visibility: hidden;
 }
 
-
-
+.more{
+  text-align: center;
+  height: 40px;
+  text-decoration: underline;
+  display: inline-block;
+  width: 100%;
+  padding-top: 25px;
+}
