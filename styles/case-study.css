@@ -10,6 +10,7 @@ section {
 
 section p {
   width: 80%;
+  max-width: 1024px;
   text-align: justify;
   margin: 50px auto 20px;
   line-height: 1.5;
@@ -93,8 +94,9 @@ h4 {
 .tools {
   padding: 0 10%;
   margin: auto;
-  display: inline-block;
+  display: block;
   width: 100%;
+  max-width: 1440px;
 }
 
 .tools .fb-two-thirds, .tools .fb-third {
@@ -188,9 +190,14 @@ h4 {
 
 @media (max-width: 600px){
 
-.final-design .image-gallery img {
+  .final-design .image-gallery img {
     width: 100%;
     }
+
+  .flex-contain {
+    width: 97%;
+    margin: 0;
+  }
 }
 
 /*\VIDEO*/
@@ -205,8 +212,21 @@ h4 {
   padding: 20px 0 40px;
 }
 
+/*MEDIA QUERIES FOR XTRA LARGE SCREENS*/
+@media (min-width: 1440px){
+  .fb-third{
+    padding: 8% 0 0 9%;
+  }
+}
 
-
+@media (min-width: 1514px){
+  .blue-bar, .add-length{
+    width: 31%;
+  }
+  .section-title{
+    left: 20%;
+  }
+}
 
 
 

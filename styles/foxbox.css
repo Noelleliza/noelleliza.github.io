@@ -8,14 +8,6 @@ section {
   padding: 20px 0;
 }
 
-section p {
-  line-height: 1.5;
-  margin: 50px auto 20px;
-  max-width: 80%;
-  text-align: justify;
-  clear: both;
-}
-
 h4 {
   font-family: 'Muli','Montserrat' ,sans-serif;
   font-size: 13pt;
@@ -24,10 +16,6 @@ h4 {
   z-index: 2000;
 }
 
-.section-title {
-  left: 10%;
-  max-width: 50%;
-}
 
 .fb-bttn {
   border: solid #F15D25 2px;
@@ -56,6 +44,12 @@ h4 {
 
 .add-length {
   width: 310px;
+}
+
+@media (min-width: 1514px){
+.blue-bar, .add-length {
+    width: 31%;
+}
 }
 
 .center {
@@ -90,14 +84,6 @@ h4 {
   text-align: center;
 }
 
-.fb-third {
-  display: inline;
-  float: left;
-  width: 40%;
-  padding: 5%;
-  text-align: center;
-}
-
 .fb-two-thirds {
   display: inline;
   float: right;
@@ -111,13 +97,6 @@ h4 {
   margin: 0 auto;
   max-width: 100%;
   text-align: center;
-}
-
-.tools {
-  display: inline-block;
-  margin: auto;
-  padding: 0 10%;
-  width: 100%;
 }
 
 .tools .fb-two-thirds,
