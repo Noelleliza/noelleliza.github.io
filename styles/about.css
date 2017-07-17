@@ -35,7 +35,7 @@
 }
 
 p.bio-text {
-  margin: 40px 50px 0 0;
+  margin: 40px 50px 50px 0;
   line-height: 1.5;
 }
 
@@ -58,17 +58,25 @@ p.bio-text {
     position: relative;
   }
 
-  .pink.box {
+.pink.box {
     right: -35px;
     height: 380px;
     width: 100%;
     bottom: 335px;
   }
 
-  .for-box {
+.for-box {
     width: 100%;
     overflow: hidden;
   }
+
+.button{
+  display: inline-block;
+}
+
+.school{
+  color: #3484b9;
+}
 
 /*LARGE SCALE ONLY*/
   @media (min-width: 756px){
@@ -91,9 +99,3 @@ p.bio-text {
     }
 
   }
-
-
-
-
-
-

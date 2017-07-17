@@ -7,12 +7,12 @@
 }
 
 .dc-bttn:hover {
-  color: #5380AE; 
+  color: #5380AE;
 }
 
 .blue-bar {
   background: #424A4F;
-  width: 240px;
+  width: 350px;
   margin-top: 10px;
   opacity: 1;
 }
@@ -28,6 +28,12 @@
 @media (max-width: 601px){
   .section-title {
     color: #424A4F;
+  }
+}
+
+@media (min-width: 1900px) {
+  .section-title{
+    color: #424a4f;
   }
 }
 
@@ -99,12 +105,27 @@ h4.centered-title  {
   background: #D1DAE3;
 }
 
+/*@media query {}*/
+
+@media (max-width:1024px) {
+  .section-title {
+    left: 120px;
+    text-align: left;
+  }
+  .blue-bar{
+    width: 220px;
+  }
+  .add-length {
+    width: 350px;
+}
+}
+
 /*LARGE SCREENS*/
-@media (min-width: 1514px){
+@media (min-width: 1514px) and (max-width: 1899px){
   .blue-bar, .add-length{
     width: 31%;
   }
   .section-title{
-    left: 20%;
+    left: -21%;
   }
 }
