@@ -59,6 +59,10 @@ a {
   color: #46525A;
 }
 
+a img {
+  max-width: 45px;
+}
+
 .nav {
   position: fixed;
   width: 100%;
